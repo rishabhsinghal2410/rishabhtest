@@ -1,0 +1,30 @@
+.trigger-js {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.read-less,
+.read-more {
+    display: none;
+}
+
+.read-more__txt,
+.read-less__txt {
+    text-decoration: underline;
+}
+
+/* [1] downwards arrow, fileformat.info/info/unicode/char/2193/index.htm */
+.read-more::after {
+    margin-left: 4px;
+    content: '\2193'; /* [1] */
+}
+/* [2] upwards arrow, fileformat.info/info/unicode/char/2191/index.htm */
+.read-less::after {
+    margin-left: 4px;
+    content: '\2191'; /* [2] */
+}
+
+.truncable-txt--is-truncated .read-more,
+.truncable-txt--is-not-truncated .read-less {
+    display: inline-block;
+}

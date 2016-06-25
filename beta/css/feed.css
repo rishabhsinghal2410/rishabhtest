@@ -1,0 +1,58 @@
+  .header {
+    margin: 10px 0 10px;
+	background-color:cornsilk;
+	text-align:center;
+	width:100%;
+	height:auto;
+	border-radius:10px;
+  }
+  .main-header {
+      font-weight:500;
+  }
+  .sub-header {
+      font-weight:500;
+  }
+  .descr {
+    margin-top: 5px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:13px;
+	border-bottom: thin solid #eee;
+	font-family: 'Helvetica Neue', Helvetica, 'Hiragino Kaku Gothic Pro', Meiryo, arial, sans-serif;
+	line-height: 17px;
+  }
+  .social-icons {
+	padding-bottom:2px;
+	padding-top:2px;
+	padding-left:5px;
+	padding-right:5px;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  .item {
+    display: inline-block;
+    padding: .25rem;
+    width: 100%;
+  }
+  
+  .hide {
+    display:none;
+  }
+  .show {
+    display:block;
+  }
+  .pane-label {
+    position: fixed;
+    padding: 0;
+    font-size: 70%;
+    left: 0px;
+    bottom: 50%;
+    margin: 0;
+  }
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:white;
+    background-color:#fcd900;
+    }

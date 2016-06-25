@@ -1,0 +1,38 @@
+.white {
+  color:#a1a1a1;
+}
+.menu {
+  text-align:center;
+  padding:3px;
+}
+a.white:hover {
+  text-decoration: none;
+}
+td.menu:hover {
+  border:thin solid;
+  border-color:#fff;
+  padding:-2px;
+  border-radius:12px;
+  background-color:lightblue;
+  color:#428bca;
+  cursor:pointer;
+  text-decoration: none;
+}
+td.current {
+border:thin solid;
+  border-color:#fff;
+  padding:-2px;
+  border-radius:12px;
+  background-color:lightblue;
+  color:#428bca;
+  cursor:pointer;
+  text-decoration: none;
+}
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #e2e2e2;
+}
+.text {
+  font-size: 10px;
+  font-family: Adelle, sans-serif;
+}
